@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
-import Header from "../components/common/Header";
+import Header from "../components/Header";
 
 function MyApp({ Component, pageProps }) {
   return (
