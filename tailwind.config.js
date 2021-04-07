@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        fontFamily: {
+          sans: ["Ubuntu", "ui-sans-serif", "sans-serif"],
+          mono: ["Ubuntu Mono", "ui-monospace", "monospace"],
+        },
         green: {
           DEFAULT: "#5E8B25",
         },
