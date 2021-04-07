@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import Header from "../components/Header";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }): JSX.Element {
   return (
     <>
       <Header />
