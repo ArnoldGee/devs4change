@@ -16,7 +16,7 @@ const links = [
   },
 ];
 
-const Navbar = () => (
+const Navbar = (): JSX.Element => (
   <nav>
     <div className="hidden sm:flex justify-end items-center space-x-5 uppercase">
       {links.map(({ label, href }, index) => (
@@ -31,7 +31,7 @@ const Navbar = () => (
         </div>
       ))}
     </div>
-    <div className="">Hamburger</div>
+    <div className="sm:hidden">Hamburger</div>
   </nav>
 );
 
