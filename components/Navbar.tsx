@@ -27,7 +27,7 @@ const Navbar = (): JSX.Element => {
       <div
         className={cn(
           "overflow-hidden transition-all sm:overflow-auto absolute sm:relative top-16 sm:top-auto inset-x-0 sm:inset-x-auto",
-          !open ? "h-0 sm:h-auto" : "h-80 sm:h-auto"
+          !open ? "h-0 sm:h-auto" : "h-80"
         )}
       >
         <div className="justify-end bg-green uppercase items-center p-7 pb-10 sm:pb-0 sm:p-0 space-y-10 sm:space-y-0 sm:space-x-7 flex flex-col sm:flex-row ">

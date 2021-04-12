@@ -3,17 +3,23 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Ubuntu", "ui-sans-serif", "sans-serif"],
+        mono: ['"Ubuntu Mono"', "ui-monospace", "monospace"],
+      },
+      height: {
+        140: "35rem",
+      },
       colors: {
-        fontFamily: {
-          sans: ["Ubuntu", "ui-sans-serif", "sans-serif"],
-          mono: ["Ubuntu Mono", "ui-monospace", "monospace"],
-        },
         green: {
           DEFAULT: "#5E8B25",
         },
         brown: {
-          DEFAULT: "#6E6544",
-          light: "#A59863",
+          DEFAULT: "#442715",
+        },
+        yellow: {
+          DEFAULT: "#D1B834",
+          lighter: "#BEA72F",
         },
         concrete: {
           DEFAULT: "#D4CEBC",
