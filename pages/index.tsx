@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HeroHome from "../components/home/HeroHome";
+import NoMoreTodoLists from "../components/home/NoMoreTodoLists";
 import styles from "../styles/Home.module.css";
 
 export default function Home(): JSX.Element {
@@ -10,6 +11,7 @@ export default function Home(): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroHome />
+      <NoMoreTodoLists />
     </div>
   );
 }
