@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = (): JSX.Element => (
   <>
-    <header className="fixed inset-x-0 p-5 bg-green text-white">
+    <header className="fixed z-20 inset-x-0 p-5 bg-green text-white">
       <MaxWidth>
         <div className="flex justify-between">
           <h1 className="sr-only">Devs for Change</h1>

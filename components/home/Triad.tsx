@@ -11,9 +11,9 @@ export interface TriadProps {
 const Triad = ({ title, cards }: TriadProps): JSX.Element => (
   <Section>
     <MaxWidth>
-      <div className="p-20 space-y-12">
+      <div className="py-20 space-y-12">
         <TextH2 className="text-brown text-center">{title}</TextH2>
-        <ul className="flex justify-center items-stretch space-x-16">
+        <ul className="flex flex-wrap justify-center items-stretch gap-16">
           {cards.map((card) => (
             <TriadCard key={card.title} {...card} />
           ))}

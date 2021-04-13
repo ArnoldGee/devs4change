@@ -14,7 +14,8 @@ export default function Button({ onClick, children, style = "primary" }: Props):
       className={cn(
         "py-4 px-6 cursor-pointer transition",
         style === "primary" && "text-white bg-yellow hover:bg-yellow-lighter",
-        style === "inverted" && "text-brown border border-transparent hover:border-brown font-bold"
+        style === "inverted" &&
+          "text-brown border-2 border-transparent hover:border-brown font-bold"
       )}
     >
       {children}

@@ -1,4 +1,5 @@
 import { TriadProps } from "../components/home/Triad";
+import { ContributorCardProps } from "../components/home/ContributorCard";
 
 export const homeTriadData: TriadProps = {
   title: "What you get",
@@ -22,3 +23,18 @@ export const homeTriadData: TriadProps = {
     },
   ],
 };
+
+export const contributors: ContributorCardProps[] = [
+  {
+    name: "Ainhoa Ortega",
+    href: "https://www.linkedin.com/in/ainhoa-ortega-l/",
+    description: "Teacher, Full Stack Developer and Animal Crossing fan",
+    img: "assets/images/ainhoa.png",
+  },
+  {
+    name: "Arnau Gómez",
+    href: "https://www.linkedin.com/in/arnau-g%C3%B3mez-903b49187/",
+    description: "Teacher, Full Stack Developer and cheese addict",
+    img: "assets/images/arnau.jpg",
+  },
+];
