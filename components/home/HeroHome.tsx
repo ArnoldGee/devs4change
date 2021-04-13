@@ -28,7 +28,7 @@ function HeroHome(): JSX.Element {
           </div>
           <div className="flex-0 w-80 flex">
             <img
-              className="transform scale-125 origin-center"
+              className="transform scale-125 origin-center animate-levitate transition"
               src="assets/hero-world.svg"
               alt="A woman coding to change the world"
             />
