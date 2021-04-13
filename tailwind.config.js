@@ -16,6 +16,7 @@ module.exports = {
         },
         brown: {
           DEFAULT: "#442715",
+          lighter: "#9E5A11",
         },
         yellow: {
           DEFAULT: "#D1B834",
