@@ -3,7 +3,7 @@ import React from "react";
 
 interface ParagraphProps {
   children: React.ReactNode;
-  size: "large" | "medium";
+  size?: "large" | "medium";
   className: string;
 }
 
