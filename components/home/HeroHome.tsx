@@ -31,7 +31,10 @@ function HeroHome(): JSX.Element {
             </div>
             <div className="hidden md:flex relative sm:-right-0 flex-0 w-80">
               <img
-                className={cn("transform origin-center transition", styles["animate-levitate"])}
+                className={cn(
+                  "hidden md:block transform origin-center transition",
+                  styles["animate-levitate"]
+                )}
                 src="assets/illustrations/hero-world.svg"
                 alt="A woman coding to change the world"
               />
