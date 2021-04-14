@@ -29,7 +29,7 @@ function HeroHome(): JSX.Element {
                 <Button style="inverted">I am a non-profit</Button>
               </div>
             </div>
-            <div className="hidden sm:flex relative sm:-right-0 flex-0 w-80">
+            <div className="hidden md:flex relative sm:-right-0 flex-0 w-80">
               <img
                 className={cn("transform origin-center transition", styles["animate-levitate"])}
                 src="assets/illustrations/hero-world.svg"
