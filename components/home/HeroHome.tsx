@@ -25,11 +25,11 @@ function HeroHome(): JSX.Element {
                 by building real websites and projects for non-profits.
               </Paragraph>
               <div className="flex relative z-10 flex-col sm:flex-row items-start sm:items-center gap-5 pt-5">
-                <Button>Get started</Button>
+                <Button>Start building the future</Button>
                 <Button style="inverted">I am a non-profit</Button>
               </div>
             </div>
-            <div className="absolute sm:relative bottom-0 -right-20 sm:-right-0 flex-0 w-80 flex">
+            <div className="hidden sm:flex relative sm:-right-0 flex-0 w-80">
               <img
                 className={cn("transform origin-center transition", styles["animate-levitate"])}
                 src="assets/illustrations/hero-world.svg"
