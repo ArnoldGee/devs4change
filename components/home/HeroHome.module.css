@@ -21,6 +21,8 @@
 @media(max-width: 750px) {
     .animate-levitate {
         --transform: 0.85;
+        animation: none;
+        transform: scale(var(--transform)) translateY(5rem);
     }
 }
 
