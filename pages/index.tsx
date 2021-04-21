@@ -9,7 +9,8 @@ import CallToActionSection from "../components/home/CallToActionSection";
 
 export default function Home(): JSX.Element {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
+      <div className="h-16" />
       <Head>
         <title>Devs4change</title>
         <link rel="icon" href="/favicon.ico" />
@@ -19,6 +20,6 @@ export default function Home(): JSX.Element {
       <Triad {...homeTriadData} />
       <ContributorsSection contributors={contributors} />
       <CallToActionSection />
-    </div>
+    </main>
   );
 }
