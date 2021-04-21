@@ -1,5 +1,4 @@
 import React from "react";
-import cn from "classnames";
 import Button from "../atoms/Button";
 import MaxWidth from "../atoms/MaxWidth";
 import Paragraph from "../atoms/Paragraph";
@@ -31,7 +30,7 @@ function HeroHome(): JSX.Element {
             </div>
             <div className="mobile-hidden flex relative sm:-right-0 flex-0 w-80">
               <img
-                className={cn("transform origin-center transition", styles["animate-levitate"])}
+                className={"origin-center " + styles["animate-levitate"]}
                 src="assets/illustrations/hero-world.svg"
                 alt="A woman coding to change the world"
               />
