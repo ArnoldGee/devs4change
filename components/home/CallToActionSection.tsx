@@ -11,10 +11,14 @@ const CallToActionSection = (): JSX.Element => (
         <TextH2 className="pb-14 text-center">Sign up now</TextH2>
         <div className="flex flex-wrap justify-center items-center gap-8">
           <Link href="/signup">
-            <Button>Start as a developer</Button>
+            <a>
+              <Button>Start as a developer</Button>
+            </a>
           </Link>
           <Link href="/signup">
-            <Button style="inverted">I am a non-profit</Button>
+            <a>
+              <Button style="inverted">I am a non-profit</Button>
+            </a>
           </Link>
         </div>
       </div>

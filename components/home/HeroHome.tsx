@@ -26,10 +26,14 @@ function HeroHome(): JSX.Element {
               </Paragraph>
               <div className="flex relative z-10 flex-col sm:flex-row items-start sm:items-center gap-5 pt-5">
                 <Link href="/signup">
-                  <Button>Start building the future</Button>
+                  <a>
+                    <Button>Start building the future</Button>
+                  </a>
                 </Link>
                 <Link href="/signup">
-                  <Button style="inverted">I am a non-profit</Button>
+                  <a>
+                    <Button style="inverted">I am a non-profit</Button>
+                  </a>
                 </Link>
               </div>
             </div>
