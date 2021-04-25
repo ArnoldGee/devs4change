@@ -1,4 +1,4 @@
-import MaxWidth from "./atoms/MaxWidth";
+import MaxWidth from "../atoms/MaxWidth";
 import Navbar from "./Navbar";
 import Link from "next/link";
 

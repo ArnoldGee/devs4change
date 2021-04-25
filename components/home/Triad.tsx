@@ -1,7 +1,7 @@
 import TriadCard, { TriadCardProps } from "./TriadCard";
-import Section from "../atoms/Section";
-import MaxWidth from "../atoms/MaxWidth";
-import TextH2 from "../atoms/TextH2";
+import Section from "../common/atoms/Section";
+import MaxWidth from "../common/atoms/MaxWidth";
+import TextH2 from "../common/atoms/TextH2";
 
 export interface TriadProps {
   title: string;

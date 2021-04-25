@@ -1,4 +1,4 @@
-import Paragraph from "../atoms/Paragraph";
+import Paragraph from "../common/atoms/Paragraph";
 
 export interface ContributorCardProps {
   name: string;

@@ -1,9 +1,9 @@
 import React from "react";
-import Button from "../atoms/Button";
-import MaxWidth from "../atoms/MaxWidth";
-import Paragraph from "../atoms/Paragraph";
-import Section from "../atoms/Section";
-import TextHero from "../atoms/TextHero";
+import Button from "../common/atoms/Button";
+import MaxWidth from "../common/atoms/MaxWidth";
+import Paragraph from "../common/atoms/Paragraph";
+import Section from "../common/atoms/Section";
+import TextHero from "../common/atoms/TextHero";
 import styles from "./HeroHome.module.css";
 import Link from "next/link";
 

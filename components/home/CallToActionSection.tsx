@@ -1,7 +1,7 @@
-import MaxWidth from "../atoms/MaxWidth";
-import Section from "../atoms/Section";
-import TextH2 from "../atoms/TextH2";
-import Button from "../atoms/Button";
+import MaxWidth from "../common/atoms/MaxWidth";
+import Section from "../common/atoms/Section";
+import TextH2 from "../common/atoms/TextH2";
+import Button from "../common/atoms/Button";
 import Link from "next/link";
 
 const CallToActionSection = (): JSX.Element => (
