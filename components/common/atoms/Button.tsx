@@ -3,7 +3,8 @@ import cn from "classnames";
 
 interface Props {
   children: ReactNode;
-  onClick?: () => void;
+  onClick?: (e?: any) => void | Promise<void>;
+  type?: "submit" | "reset" | "button";
   style?: "primary" | "inverted";
   size?: "l" | "m";
 }
@@ -11,12 +12,14 @@ interface Props {
 export default function Button({
   onClick,
   children,
+  type = "button",
   style = "primary",
   size = "l",
 }: Props): ReactElement {
   return (
     <button
       onClick={onClick}
+      type={type}
       className={cn(
         "cursor-pointer transition",
         style === "primary" && "text-white bg-yellow hover:bg-yellow-lighter",
