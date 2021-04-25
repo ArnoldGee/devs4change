@@ -5,7 +5,12 @@ import TextDivider from "../common/molecules/TextDivider";
 
 function LoginForm(): JSX.Element {
   return (
-    <LoginFormWrapper title="Welcome back!">
+    <LoginFormWrapper
+      onSubmit={() => {
+        return;
+      }}
+      title="Welcome back!"
+    >
       <Input label="Mail" placeholder="devs4change@email.com" />
       <Input label="Password" placeholder="1234aaaa" />
       <div className="flex justify-end">
