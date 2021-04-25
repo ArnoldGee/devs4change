@@ -2,7 +2,6 @@ import Button from "../common/atoms/Button";
 import Input from "../common/atoms/Input";
 import LoginFormWrapper from "../common/molecules/LoginFormWrapper";
 import TextDivider from "../common/molecules/TextDivider";
-import { supabase } from "../../api/supabase";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import { useRouter } from "next/router";
@@ -25,7 +24,7 @@ function SignupForm(): JSX.Element {
   const handleGoogleAuth = async (e) => {
     const userCredentials = await firebase.auth().signInWithPopup(provider);
     console.log(userCredentials);
-    router.push("/");
+    await router.push("/");
   };
 
   const handleSubmit = async ({ email, password }: FormValues) => {
@@ -34,7 +33,7 @@ function SignupForm(): JSX.Element {
 
     // TODO: save user in recoil or whatever state manager we're going to use
     console.log(userCredentials);
-    router.push("/");
+    await router.push("/");
   };
 
   const DisplayingErrorMessagesSchema = Yup.object().shape({
