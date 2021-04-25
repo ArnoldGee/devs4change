@@ -1,10 +1,11 @@
 import React from "react";
-import Button from "../atoms/Button";
-import MaxWidth from "../atoms/MaxWidth";
-import Paragraph from "../atoms/Paragraph";
-import Section from "../atoms/Section";
-import TextHero from "../atoms/TextHero";
+import Button from "../common/atoms/Button";
+import MaxWidth from "../common/atoms/MaxWidth";
+import Paragraph from "../common/atoms/Paragraph";
+import Section from "../common/atoms/Section";
+import TextHero from "../common/atoms/TextHero";
 import styles from "./HeroHome.module.css";
+import Link from "next/link";
 
 function HeroHome(): JSX.Element {
   return (
@@ -24,8 +25,12 @@ function HeroHome(): JSX.Element {
                 by building real websites and projects for non-profits.
               </Paragraph>
               <div className="flex relative z-10 flex-col sm:flex-row items-start sm:items-center gap-5 pt-5">
-                <Button>Start building the future</Button>
-                <Button style="inverted">I am a non-profit</Button>
+                <Link href="/signup">
+                  <Button>Start building the future</Button>
+                </Link>
+                <Link href="/signup">
+                  <Button style="inverted">I am a non-profit</Button>
+                </Link>
               </div>
             </div>
             <div className="mobile-hidden flex relative sm:-right-0 flex-0 w-80">
