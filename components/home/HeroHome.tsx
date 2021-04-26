@@ -25,6 +25,12 @@ function HeroHome(): JSX.Element {
               <Button>Start building the future</Button>
               <Button style="inverted">I am a non-profit</Button>
             </div>
+            <div className="w-80 my-10 sm:hidden">
+              <img
+                src="assets/illustrations/undraw_spread_love_r9jb.svg"
+                alt="a man and a woman connected with love"
+              />
+            </div>
           </div>
           <div className="flex-0 w-80 flex">
             <img
