@@ -1,0 +1,25 @@
+.animate-levitate {
+    animation-name: levitate;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    --transform: 1.25
+}
+
+@keyframes levitate {
+    from {
+        transform: scale(var(--transform)) translateY(0)
+    }
+
+    to {
+        transform: scale(var(--transform)) translateY(-0.5rem);
+    }
+}
+
+@media(prefers-reduced-motion) {
+    .animate-levitate {
+        animation: none;
+    }
+}

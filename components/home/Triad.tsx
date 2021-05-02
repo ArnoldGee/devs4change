@@ -1,7 +1,7 @@
 import TriadCard, { TriadCardProps } from "./TriadCard";
-import Section from "../atoms/Section";
-import MaxWidth from "../atoms/MaxWidth";
-import TextH2 from "../atoms/TextH2";
+import Section from "../common/atoms/Section";
+import MaxWidth from "../common/atoms/MaxWidth";
+import TextH2 from "../common/atoms/TextH2";
 
 export interface TriadProps {
   title: string;
@@ -11,9 +11,9 @@ export interface TriadProps {
 const Triad = ({ title, cards }: TriadProps): JSX.Element => (
   <Section>
     <MaxWidth>
-      <div className="p-20 space-y-12">
+      <div className="py-20 space-y-12">
         <TextH2 className="text-brown text-center">{title}</TextH2>
-        <ul className="flex justify-center items-stretch space-x-16">
+        <ul className="flex flex-wrap justify-center items-stretch gap-16">
           {cards.map((card) => (
             <TriadCard key={card.title} {...card} />
           ))}

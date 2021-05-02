@@ -1,11 +1,11 @@
 import React, { ReactElement } from "react";
-import MaxWidth from "../atoms/MaxWidth";
-import Section from "../atoms/Section";
-import TextH2 from "../atoms/TextH2";
+import MaxWidth from "../common/atoms/MaxWidth";
+import Section from "../common/atoms/Section";
+import TextH2 from "../common/atoms/TextH2";
 
 export default function NoMoreTodoLists(): ReactElement {
   return (
-    <div className="bg-green text-center text-white mt-20 pt-6 pb-8">
+    <div className="bg-green text-center text-white pt-10 pb-14">
       <Section>
         <MaxWidth>
           <div className="text-5xl pb-10">{">_"}</div>

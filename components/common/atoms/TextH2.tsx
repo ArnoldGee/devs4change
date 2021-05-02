@@ -3,7 +3,7 @@ import cn from "classnames";
 
 interface Props {
   children: ReactNode;
-  className: string;
+  className?: string;
 }
 
 export default function TextH2({ children, className }: Props): ReactElement {

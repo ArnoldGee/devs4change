@@ -3,7 +3,7 @@ interface TextHeroProps {
 }
 
 const TextHero = ({ children }: TextHeroProps): JSX.Element => (
-  <h2 className="text-5xl text-brown">{children}</h2>
+  <h2 className="text-4xl text-brown">{children}</h2>
 );
 
 export default TextHero;
