@@ -44,6 +44,12 @@ function HeroHome(): JSX.Element {
                 alt="A woman coding to change the world"
               />
             </div>
+            <div className="w-80 my-10 sm:hidden">
+              <img
+                src="assets/illustrations/undraw_spread_love_r9jb.svg"
+                alt="a man and a woman connected with love"
+              />
+            </div>
           </div>
         </MaxWidth>
       </Section>
